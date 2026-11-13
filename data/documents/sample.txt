@@ -1,0 +1,7 @@
+RAG stands for Retrieval Augmented Generation.
+
+FAISS is a vector similarity search library developed by Meta.
+
+GPT-4o-mini is an OpenAI language model.
+
+BM25 is a keyword-based retrieval algorithm.

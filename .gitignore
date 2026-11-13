@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials.json
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*
+
+# Generated models
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Generated data and databases
+*.parquet
+*.sqlite
+*.db
+
+# Logs
+*.log
+logs/
+data/faiss_index_dev/
